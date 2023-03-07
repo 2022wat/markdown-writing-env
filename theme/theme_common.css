@@ -11,6 +11,10 @@
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
  * @author ocodia
  */
+
+@import url('http://fonts.googleapis.com/earlyaccess/notosansjp.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
 code[class*='language-'],
 pre[class*='language-'] {
   color: #f8f8f2;
@@ -144,7 +148,7 @@ pre[class*='language-'] {
 }
 
 :root {
-  font-family: 'Neue Frutiger World', 'Verdana', 'Yakumono', 'body',
+  font-family: 'Roboto', 'Noto Sans JP', 'Neue Frutiger World', 'Verdana', 'Yakumono', 'body',
     'Hiragino Sans', sans-serif;
   font-weight: 400;
   line-height: 1.7;
